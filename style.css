@@ -460,6 +460,7 @@ label {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+  width: 100%;
 }
 
 @media only screen and (min-width: 1120px) {
@@ -470,7 +471,7 @@ label {
 
 @media only screen and (max-width: 1120px) {
   label {
-    font-size: 30px;
+    font-size: 34px;
   }
 }
 
@@ -491,7 +492,7 @@ input {
 
 @media only screen and (max-width: 760px) {
   input {
-    width: 200px;
+    width: 300px;
     height: 40px;
     font-size: 20px;
   }
