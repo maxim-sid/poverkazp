@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function (){
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(formData).toString()
       }).then(() => alert('Форма успешно отправлена!'));
+      form.reset();
     } else {
       alert("Пожалуйста введите правильный номер телефона и/или ФИО");
     }
